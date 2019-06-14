@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Entities>
+  <ExtensionPackages>
+    <ExtensionPackage name="LivePing" description="Introduces a keep-alive ping in order to keep the session alive. Keeps away the login window when using basic authentication." vendor="Thingworx Labs" packageVersion="1.0.0" minimumThingWorxVersion="8.4.0" buildNumber=""/>
+  </ExtensionPackages>
+  <Widgets>
+    <Widget name="LivePing">
+      <UIResources>
+        <FileResource type="JS" file="LivePing.js" description="" isDevelopment="true" isRuntime="false"/>
+      </UIResources>
+    </Widget>
+  </Widgets>
+</Entities>
