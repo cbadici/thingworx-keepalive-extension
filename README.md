@@ -5,6 +5,7 @@ This extension should be used only in development. It was tested in ThingWorx 8.
 The request time is hardcoded to 20 seconds, /Thingworx/ThingTemplates/GenericThing (guaranteed to exist by default).
 
 Installation:
+
 -modify the webapps\Thingworx\Composer\index.html file by adding the following line
   <script type="text/javascript" src="../Common/extensions/LivePing/ui/LivePing/LivePing.js" charset="UTF-8"></script>
   after the first script line, at line 10. This will trigger the periodic request to happen as soon as you open the composer.
