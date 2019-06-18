@@ -1,7 +1,6 @@
 # thingworx-keepalive-extension
-An extension that sends a keep alive request to the ThingWorx server.
 
-This extension should be used only in development. It was tested in ThingWorx 8.4.3 with the basic authentication (no SSO testing was done).
+This extension should be used only in development. Please do not use it in production. It will generate Composer sessions not to expire, potentially leading to resource exhaustion. It was tested in ThingWorx 8.4.3 with the basic authentication (no SSO testing was done). 
 The request time is hardcoded to 20 seconds, /Thingworx/ThingTemplates/GenericThing (guaranteed to exist by default).
 
 Installation:
