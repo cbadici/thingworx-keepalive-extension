@@ -9,7 +9,7 @@ Installation:
   <script type="text/javascript" src="../Common/extensions/LivePing/ui/LivePing/LivePing.js" charset="UTF-8"></script>
   after the first script line, at line 10. This will trigger the periodic requests as soon as you open the composer.
   
--modify the Tomcat server.xml and comment the AccessLogValve. This node is placed at the end of the file. This valve logs every request in the access_log files from the log folder. If this is valve is not disabled, then the access log will fill faster than usual. In order not to fill the disk space faster, I recommend to comment the node.
+-modify the Tomcat server.xml and comment the AccessLogValve. This node is placed at the end of the file. This valve logs every request in the access_log files from the log folder. If this is valve is not disabled, then the access log will fill faster than usual. In order not to fill the disk space faster, I recommend to comment the node. Not logging any requests at the Tomcat level can be considered insecure depending on your IT Security team, so please validate this with them before doing this modification.
 
-Feel free to fork & do a pull request for any enhancement.
 
+This Extension is provided as-is and without warranty or support. It is not part of the PTC product suite. Users are free to use, fork and modify them at their own risk. Community contributions are welcomed and can be accepted based on their content.
